@@ -1,0 +1,20 @@
+{
+  "name": "ageing-chart",
+  "version": "1.0.0",
+  "description": "Ageing chart connecting to JIRA",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "ageing",
+    "chart"
+  ],
+  "author": "Matthew Croker <matthew.croker@ixaris.com>",
+  "license": "ISC",
+  "dependencies": {
+    "connect": "^3.6.3",
+    "serve-static": "^1.12.4"
+  }
+}
